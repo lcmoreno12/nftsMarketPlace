@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #141945;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #141945;
+}
+
+.menu li{
+    color: white;
+    list-style: none;
+}
+
+.logoEndft{
+    margin-right: 120px;
+    width: 140px;
+}
+
+.buttonConnect{
+    color: white;
+    background-color: #2E80ED;
+    border: none;
+    font-weight: bold;
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+}
+
+.buttonConnect:hover{
+    cursor: pointer;
+    background-color: rgb(51, 120, 185);
+}
+
+.titulosMenucito{
+    cursor: pointer;
+}
+
+.titulosMenucito:hover{
+    color: rgb(182, 182, 182);
+    cursor: pointer;
+}
+
+.discoverMonkey{
+    display: flex;
+    align-items: center;
+    height: 900px;
+    margin: 40px;
+}
+
+/*Discover collect txts*/
+.titleDiscover{
+    font-size: 55px; 
+    color: white;
+    font-family: 'Clash Display';
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.wordExtraordinary{
+    font-size: 55px;
+    font-family: 'Clash Display';
+    font-weight: bold;
+    background: linear-gradient(90deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sectionTrending{
+    width: 100%;
+    text-align: center;
+    margin-top: 290px;
+    margin-bottom: -70px;
+    font-size: 45px;
+}
+.trendingCenter{
+
+    text-align: center;
+    background: linear-gradient(90deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position:relative;   
+}
+
+.txt{
+    font-family: 'helvetica';
+    color: white;
+}
+
+.botoncitos{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.btnExplore{
+    color: white;
+    background-color: #2E80ED;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    border-radius: 50px;
+}
+
+.btnCreate{
+    color: white;
+    background-color: transparent;
+    border: 1.4px solid rgb(94, 94, 94);
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+    width: 110px;
+    border-radius: 50px;
+    margin: 10px;
+
+}
+
+.container{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.numeros{
+    font-size: 25px;
+}
+
+/*Logos de wallets*/
+
+.walletsLogosArriba{
+    position: absolute;
+    align-items: center;
+    width: 1100px;
+    height: 60px;
+    left: 314px;
+    top: 1000px;
+}
+
+img .walletConnect{
+    margin-top: 0px;
+}
+.walletsLogosAbajo{
+    position: absolute;
+    width: 613.27px;
+    height: 60px;
+
+    left: 400px;
+    top: 1070px;
+    margin-bottom: 300px;
+}
+
+.logosDeWallets{
+    margin-left: 50px;
+    width: 180px;
+}
+
+.nfts{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+}
+
+.nfts article{
+    font-family: Roboto, sans-serif;
+    width: 400px;
+    text-align: center;
+    margin: 100px 0px;
+    border-radius: 16px 16px 16px 16px;
+    text-align: center;
+    position: relative;
+    box-shadow: 2px 4px 20px rgba(88, 30, 136, 0.55);
+    height: 600px;
+}
+
+.articleCard{
+  background: linear-gradient(90deg, #290641 0%, #2e0741 48%, #451670 100%);
+}
+
+.nfts .card{
+    border-radius: 10%;
+    width: 355px;
+    position: absolute;
+    right: calc(50% - (355px / 2)) ;
+    top: 20px;
+}
+
+.nfts h3{
+    font-size: 27px;
+}
+
+.titleCard{
+    margin: 170px 5px 5px;
+}
+
+.titleCardHape{
+    margin: 90px 5px 5px;
+}
+
+.nfts .cardSubt{
+    text-align: left;
+    font-size: 14px;
+    padding: 35px;
+    font-weight: lighter;
+}
+
+.cardInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+}
+
+.ethLogoShape{
+    border: 2px solid #7F71A1;
+    border-radius: 100%;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: #5B40FF;
+}
+
+.cardSubt{
+    color: #c0c0c0; 
+}
+
+.containerInfoCrypto{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.valorEth{
+    font-size: 18px;
+    font-weight: bold;
+}
+.infoEth{
+    margin-top: 8px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+[value~="numNegativo"] {
+    color: rgb(255,0,0);
+}
+
+[value~="numPositivo"] {
+    color: rgb(34,246,0);
+}
+
+.btnCollectNow{
+    width: 300px;
+    background-color: #2E80ED;
+    color: #F3F3F3;
+    padding: 5px 30px;
+    font-weight: bold;
+    height: 48px;
+    margin-top: 80px;
+    border: none;
+    border-radius: 50px;
+}
+
+article .bg-headerCard{
+    padding-top: 40px;
+    width: 100%;
+    height: 194px;
+    border-radius: 16px 16px 0 0;
+    text-align: left;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+.btnSeeMore{
+    width: 160px;
+    height: 50px;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.aBtnSeeMore:hover {
+    color: #bbbbbb;
+}
+
+.sectionCollection{
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: -70px;
+    font-size: 45px;
+}
+
+.collectionNavList{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #141945;
+}
+
+.collectionNavList>li{
+    list-style: none;
+}
+
+.collectionNavList > li > button{
+    background-color: transparent;
+    color: white;
+    border-radius: 100px;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 210px;
+    height: 50px;
+    margin: 0px 10px 0 0px;
+}
+
+.collectionNavList > li > button:focus{
+background-color: rgb(46,128,237);
+border: none;
+}
+
+/*8 minis cartitas*/
+
+.cardsCollection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+}
+
+.cardsCollection article{
+    font-family: Roboto, sans-serif;
+    width: 300px;
+    text-align: center;
+    margin: 30px 0px;
+    border-radius: 16px 16px 16px 16px;
+    text-align: center;
+    position: relative;
+    box-shadow: 2px 4px 20px rgba(88, 30, 136, 0.55);
+    height: 450px;
+}
+
+.cardsCollection .card{
+    border-radius: 10%;
+    width: 260px;
+    position: absolute;
+    right: calc(50% - (260px / 2)) ;
+    top: 20px;
+}
+
+.cardsCollection h3{
+    font-size: 30px;
+}
+
+.cardsCollection .cardSubt{
+
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.articleCardcita{
+    background: linear-gradient(90deg, #290641 0%, #2e0741 48%, #451670 100%);
+}
+
+.titleCardcita{
+    margin: 290px 5px 5px;
+}
+
+.btnContainerSeeMore{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+/*Top categories*/
+
+.sectionTopCategories{
+    width: 100%;
+    text-align: center;
+    margin-top: 190px;
+    margin-bottom: -70px;
+    font-size: 45px;
+}
+
+.cardsTopCollection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+    margin-top: 100px;
+}
+
+.cardsTopCollection article{
+    font-family: Roboto, sans-serif;
+    width: 425px;
+    text-align: center;
+    margin: 30px 0px;
+    border-radius: 16px 16px 16px 16px;
+    text-align: center;
+    position: relative;
+    border: 0.5px solid rgba(216, 216, 216, 0.55);
+    box-shadow: 2px 4px 20px rgba(88, 30, 136, 0.55);
+    height: 320px;
+}
+
+.cardsTopCollection .cardTop{
+    border-radius: 10%;
+    width: 260px;
+    position: absolute;
+    right: calc(50% - (260px / 2)) ;
+    top: 20px;
+}
+
+.cardsTopCollection h3{
+    font-size: 21px;
+}
+
+.articleCardcitaTopCollection{
+    background: transparent;
+}
+
+.cardcitaCollectionn{
+    height: 220px;
+    width: 320px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 30px 80px 20px 55px;
+}
+
+.cardRightUp{
+    height: 50%;
+    width: 110px;
+}
+
+.cardRightDown{
+    height: 50%;
+    width: 110px;
+}
+.cardLeft{
+    height: 100%;
+    width: 220px;
+}
+.titleCardcitaTopCollect{
+    margin: 25px 5px 5px;
+}
+/*create and sell nfts*/
+
+
+.containerCreateAndSell{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 1px solid ;
+    text-align: center;
+    margin: 180px 160px 0px 155px;
+    background: linear-gradient(105.42deg, rgba(255, 255, 255, 0.11) -3.07%, rgba(255, 255, 255, 0.11) 49.04%, rgba(255, 255, 255, 0) 97.84%);
+    border-radius: 40px;
+}
+
+.createSellInfo{
+    margin: 40px 70px 50px 70px;
+}
+
+.createSellTitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.infoCreateAndSell{
+    margin-top: 8px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/*Articles*/
+
+.article{
+    width: 100%;
+}
+
+.articleLink{
+    font-size: 17px;
+}
+
+.titleArticle{
+    margin: 2px 5px 5px;
+}
+
+/*FOOTER*/
+
+.footerTitle{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+.footerTxtMoreUpdates{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+.inputContainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputEmail{
+    border-radius: 116px;
+    width: 450px;
+    height: 60px;
+    border: none;
+
+}
+
+.btnEmail{
+    border-radius: 116px;
+    width: 80px;
+    height: 60px;
+    border: none;
+    background-color: #2E80ED;
+    color: white;
+}
+
+.containerSeparatorLine{
+    display: flex;
+    justify-content: center;   
+}
+
+.separatorLine{
+    margin-top: 75px;
+    margin-bottom: 55px;
+    width: 1200px;
+}
+
+/*final Footer*/
+
+.finalFooter{
+    display: flex;
+    align-items: center;  
+}
+
+.createSellInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoeNDFTConVerde> img{
+    margin-right: 15px;
+}
+
+.logoeNDFTConVerde{
+    display: flex;
+    align-items: center;  
+
+}
+
+
+.logoeNDFTConVerde > p{
+    color: white;
+    font-size: 16px;
+}
+
+.infoTxtCreateAndSell{
+    display: flex;
+    margin: 10px 70px 50px 70px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/*Marketplace List*/
+
+.createList{
+    padding: 0;
+}
+.containerMarketPlace{
+    flex-direction: column;
+}
+
+.containerMarketPlace> ul{
+    list-style: none;
+    color: white;
+}
+
+.containerMarketPlace> ul>li{
+    text-align: center;
+}
+
+
+
+/*copyright*/
+.copyright{
+    margin-top: 100px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;   
+}
+
+.txtCopyright{
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
